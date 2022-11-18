@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const secret = "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY2ODc1Mjc5OCwiaWF0IjoxNjY4NzUyNzk4fQ.viVe6J3URVYfqh"
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Demo App , secret = 122334osio3p2
+          Demo App
         </a>
       </header>
     </div>
